@@ -1,0 +1,9 @@
+{
+  "name": "barclays-api",
+  "version": "1.0.0",
+  "description": "Rebank Frontend Developer Exercise (API)",
+  "main": "src/index.js",
+  "repository": "https://github.com/dobeerman/barclays-api",
+  "author": "Alexander Smirnoff <a.dobeerman@gmail.com>",
+  "license": "MIT"
+}
