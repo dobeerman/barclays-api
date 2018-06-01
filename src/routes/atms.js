@@ -9,7 +9,7 @@ export default async function (req, res) {
 
   const points = await Atm.aggregate([{
     $geoNear: {
-      near: { type: 'Point', coordinates: [ parseFloat(lon), parseFloat(lat) ] },
+      near: { type: 'Point', coordinates: [ parseFloat(lat), parseFloat(lon) ] },
       distanceField: 'dist.distance',
       num: 10,
       spherical: true
